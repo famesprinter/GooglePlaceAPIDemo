@@ -14,7 +14,6 @@
 		F0BF372A1D6F263800BE524B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BF37291D6F263800BE524B /* Assets.xcassets */; };
 		F0BF372D1D6F263800BE524B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BF372B1D6F263800BE524B /* LaunchScreen.storyboard */; };
 		F0BF37351D6F29AF00BE524B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BF37341D6F29AF00BE524B /* ViewModel.swift */; };
-		F0BF37391D6F319A00BE524B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BF37381D6F319A00BE524B /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		F0BF372C1D6F263800BE524B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0BF372E1D6F263800BE524B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0BF37341D6F29AF00BE524B /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		F0BF37381D6F319A00BE524B /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,6 @@
 				F0BF37261D6F263800BE524B /* Main.storyboard */,
 				F0BF37241D6F263800BE524B /* ViewController.swift */,
 				F0BF37341D6F29AF00BE524B /* ViewModel.swift */,
-				F0BF37381D6F319A00BE524B /* Item.swift */,
 				F0BF37361D6F2A0E00BE524B /* Suportting Files */,
 			);
 			path = GooglePlaceAPIDemo;
@@ -232,7 +229,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0BF37391D6F319A00BE524B /* Item.swift in Sources */,
 				F0BF37251D6F263800BE524B /* ViewController.swift in Sources */,
 				F0BF37351D6F29AF00BE524B /* ViewModel.swift in Sources */,
 				F0BF37231D6F263800BE524B /* AppDelegate.swift in Sources */,
