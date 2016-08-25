@@ -19,7 +19,7 @@ class ViewModel {
                                           "radius": 1000,
                                           "types": "food",
                                           "name": "ผัดไทย",
-                                          "key": "AIzaSyDYHyE14T0MsfnPw19Jo3P7irZ9POlzo7I"]
+                                          "key": "your_key"]
         
         return params
         
