@@ -10,6 +10,34 @@ import Foundation
 import Alamofire
 
 class ViewModel {
+    // MARK: - Variable
+    private let GoogleBaseURL: String = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
+    
+    // MARK: - Private Function
+    private func paramatersWithLL() -> [String:AnyObject] {
+        let params: [String:AnyObject] = ["location": "18.796143,98.979263",
+                                          "radius": 1000,
+                                          "types": "food",
+                                          "name": "ผัดไทย",
+                                          "key": "AIzaSyDYHyE14T0MsfnPw19Jo3P7irZ9POlzo7I"]
+        
+        return params
+        
+    }
+
+    
+    // MARK: - Function
+    func restaurantData() {
+        Alamofire.request(.GET, GoogleBaseURL, parameters: paramatersWithLL())
+            .responseJSON { response in
+                print(response.request)  // original URL request
+                
+                if let JSON = response.result.value {
+                    print("JSON: \(JSON)")
+                }
+        }
+    }
+    
     
     
 }
